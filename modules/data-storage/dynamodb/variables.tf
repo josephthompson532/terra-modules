@@ -7,7 +7,7 @@ variable "hash_key" {
 }
 
 variable "attributes" {
-    type = "list"
+    type = list(map(string))
 }
 
 variable "env" {
