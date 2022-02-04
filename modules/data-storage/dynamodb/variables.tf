@@ -7,7 +7,7 @@ variable "hash_key" {
 }
 
 variable "attributes" {
-    type = list(object)
+    type = list(object())
 }
 
 variable "env" {
