@@ -1,18 +1,15 @@
 variable "table" {
-    type = "string"
+    type = string
 }
 
 variable "hash_key" {
-    type = "string"
+    type = string
 }
 
 variable "attributes" {
-    type = list(object({
-        name = "string"
-        type = "string"
-    }))
+    type = list(map(any))
 }
 
 variable "env" {
-    type = "string"
+    type = string
 }
