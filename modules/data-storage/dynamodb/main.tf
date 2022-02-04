@@ -12,4 +12,3 @@ module "dynamodb-table" {
       Environment   = var.env
   }
 }
-}
