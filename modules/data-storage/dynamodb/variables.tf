@@ -13,6 +13,6 @@ variable "attributes" {
     }))
 }
 
-variables "env" {
+variable "env" {
     type = "string"
 }
